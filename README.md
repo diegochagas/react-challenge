@@ -1,30 +1,31 @@
-# React + TypeScript + Vite
+# Challenge React.js - Diego Chagas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Dependencies
 
-Currently, two official plugins are available:
+- **React** — The library for web and native user interfaces.
+- **Redux** — Redux is an open-source JavaScript library for managing and centralizing application state.
+- **Redux Thunk** — Thunk middleware for Redux. It allows writing functions with logic inside that can interact with a Redux store's dispatch and getState methods.
+- **Tailwindcss** — A utility-first CSS framework
+- **Eslint** —
+  ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Starting
 
-## Expanding the ESLint configuration
+1. Clone this repository using `git clone git@github.com:diegochagas/react-challenge.git` <br />
+2. Move to the appropriate directory: `cd react-challenge`
+3. Run `npm i` to install the dependencies <br />
+4. Run `npm run dev` to run the application in development mode <br />
+5. The application will be available at `http://localhost:5173/`
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Starting with Docker
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone this repository using `git clone git@github.com:diegochagas/react-challenge.git` <br />
+2. Move to the appropriate directory: `cd react-challenge`
+3. Run `npm run docker` to install the dependencies, build and run the application <br />
+4. The application will be available at `http://localhost:8080/`
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Project build
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Run `npm run build` for the concatenation and minification of scripts and all Webpack bundle creation logic.
+2. Just send the `/dist/react-challenge` content to the server
+
