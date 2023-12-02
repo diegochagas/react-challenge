@@ -1,13 +1,31 @@
-# Challenge React.js ![](https://pasteboard.co/byC31Sq5OMgz.png)
+# Challenge React.js - Diego Chagas
 
-1. 1. Fork this public repository ([https://github.com/sebasworkana/react-challenge.git](https://github.com/sebasworkana/react-challenge.git) ), and create a new branch with the name React-Challenge-"Name and Last Name", then push it to the created branch and give access to us to review the code.
-2. The main challenge is that you create a Page with the following Style and format.
-![alt text](https://imageupload.io/en/jfSVositjWovwnf)
+## Dependencies
 
-1. You need to enumerate all Periodic table of the elements on CSS class and make use of it, matching words in First name and last name "Highlighting" them as in the image.
-2. First, install "react-redux", then use the useDispatch and useSelector react-redux hooks in the components.
-3. For this challenge use redux-thunk in it. Moreover, use the react-redux hooks to give a better impression and avoid older techniques. Share data among components without using props.
-4. Is mandatory to use linter like ESLINT
-5. Create npm scripts to run project and make sure to create a readme with instructions to run project
-6. Will be valuable if you can create Docker compose file to run all environment
-7. Use github pages to host web app and test
+- **React** — The library for web and native user interfaces.
+- **Redux** — Redux is an open-source JavaScript library for managing and centralizing application state.
+- **Redux Thunk** — Thunk middleware for Redux. It allows writing functions with logic inside that can interact with a Redux store's dispatch and getState methods.
+- **Tailwindcss** — A utility-first CSS framework
+- **Eslint** —
+  ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
+
+## Starting
+
+1. Clone this repository using `git clone git@github.com:diegochagas/react-challenge.git` <br />
+2. Move to the appropriate directory: `cd react-challenge`
+3. Run `npm i` to install the dependencies <br />
+4. Run `npm run dev` to run the application in development mode <br />
+5. The application will be available at `http://localhost:5173/`
+
+## Starting with Docker
+
+1. Clone this repository using `git clone git@github.com:diegochagas/react-challenge.git` <br />
+2. Move to the appropriate directory: `cd react-challenge`
+3. Run `npm run docker` to install the dependencies, build and run the application <br />
+4. The application will be available at `http://localhost:8080/`
+
+## Project build
+
+1. Run `npm run build` for the concatenation and minification of scripts and all Webpack bundle creation logic.
+2. Just send the `/dist/react-challenge` content to the server
+

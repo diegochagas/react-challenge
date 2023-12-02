@@ -1,0 +1,34 @@
+.element-default {
+  background-color: #0D5035;
+}
+
+.alkali-metals {
+  background-color: #244D57;
+}
+.alkaline-earth-metals {
+  background-color: #622E39;
+}
+.transition-metals {
+  background-color: #433C65;
+}
+.post-transition-metals {
+  background-color: #2F4D47;
+}
+.metalloids {
+  background-color: #523E1B;
+}
+.reactive-non-metals {
+  background-color: #2A4165;
+}
+.noble-gases {
+  background-color: #623842;
+}
+.lanthanides {
+  background-color: #004A77;
+}
+.actinides {
+  background-color: #613B28;
+}
+.unknown-properties {
+  background-color: #46474C;
+}
